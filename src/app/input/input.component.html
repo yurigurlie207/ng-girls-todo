@@ -1,0 +1,6 @@
+
+
+<div>
+    <input [value]="title" (keyup.enter)="submitValue(inputElement)" #inputElement>
+    <button (click)="submitValue(inputElement.value)">Save</button>
+</div>
